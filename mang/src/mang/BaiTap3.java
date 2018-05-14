@@ -4,6 +4,7 @@ public class BaiTap3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// Tao chu A
 		for (int i = 1; i <= 8; i++) {
 			if (i == 1)
 				System.out.println(" *** ");
@@ -20,7 +21,7 @@ public class BaiTap3 {
 			System.out.println(" ");
 			System.out.println(" ");
 		}
-
+		// Tao tam giac vuong va tam giac vuong nguoc
 		for (int i = 1; i <= 5; i++) {
 			for (int j = 1; j <= i; j++)
 				System.out.print("*");
@@ -31,7 +32,7 @@ public class BaiTap3 {
 				System.out.print("*");
 			System.out.println(" ");
 		}
-
+		// dem chu v
 		String str = "devpro vietnam";
 		int s = 0;
 		char[] ch = str.toCharArray();
